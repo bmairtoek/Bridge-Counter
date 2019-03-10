@@ -165,7 +165,6 @@ namespace BridgePointsCounter
 
         private Tuple<int, bool> GetLastGameParams()
         {
-            string spreadsheetId = "17OsMtonEZOpOVTlYde8Yl0sHV8Q5_TXa_5WetlyhwjU";
             string range = "Arkusz1!A2:B2";
 
             SpreadsheetsResource.ValuesResource.GetRequest request =
